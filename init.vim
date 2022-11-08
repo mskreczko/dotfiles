@@ -11,3 +11,4 @@ set number
 syntax on
 set cursorline
 set noswapfile
+inoremap jj <ESC>
