@@ -9,6 +9,15 @@ set shiftwidth=4
 set autoindent
 set number
 syntax on
-set cursorline
 set noswapfile
 inoremap jj <ESC>
+
+call plug#begin()
+Plug 'lervag/vimtex'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+call plug#end()
+
+filetype plugin indent on
+
+let g:vimtex_view_general_viewer = 'zathura'
